@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuRefresh"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/mnuTechCrunch"
+        android:title="Tech Crunch" />
+    <item
+        android:id="@+id/mnuTechMeme"
+        android:title="Tech Meme" />
+    <item android:title="MIT">
+        <menu>
+            <group
+                android:id="@+id/mnuMIT"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mnuMitTop"
+                    android:title="Top" />
+                <item
+                    android:id="@+id/mnuStories"
+                    android:title="Stories" />
+                <item
+                    android:id="@+id/mnuMitViews"
+                    android:title="Views" />
+                <item
+                    android:id="@+id/mnuMitBusiness"
+                    android:title="Business" />
+                <item
+                    android:id="@+id/mnuMitBio"
+                    android:title="BioMedical" />
+                <item
+                    android:id="@+id/mnuMitComputing"
+                    android:title="Computing" />
+                <item
+                    android:id="@+id/mnuMitEnergy"
+                    android:title="Energy" />
+                <item
+                    android:id="@+id/mnuMitMobile"
+                    android:title="Mobile" />
+                <item
+                    android:id="@+id/mnuMitRobotics"
+                    android:title="Robotics" />
+            </group>
+        </menu>
+    </item>
+</menu>
